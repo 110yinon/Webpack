@@ -1,0 +1,31 @@
+{
+  "name": "webpack-boilerpalte",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -w --mode production",
+    "serve": "webpack-dev-server -w --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/110yinon/Webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/110yinon/Webpack/issues"
+  },
+  "homepage": "https://github.com/110yinon/Webpack#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.4",
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
